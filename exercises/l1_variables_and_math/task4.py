@@ -4,6 +4,10 @@ if __name__ == "__main__":
 
     # Assign the values of correct types to variables a, b, c, d 
     # to make the script work without errors
+    a = 1
+    b = 2.3
+    c = 3+7j
+    d = "string"
 
     # Do not change the lines below
     assert isinstance(a, int)

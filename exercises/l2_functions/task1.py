@@ -5,6 +5,7 @@ Number = int | float | complex
 # work without errors
 def sqr(n: Number) -> Number:
     pass
+    return n * n
 
 
 if __name__ == "__main__":

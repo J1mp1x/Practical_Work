@@ -4,6 +4,7 @@ if __name__ == "__main__":
     b = 3.72
 
     # Modify variables a, b to make the script work without errors
+    b=a
 
     # Do not change the line below
     assert a == b
