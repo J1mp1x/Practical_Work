@@ -4,7 +4,6 @@ if __name__ == "__main__":
 
     # Modify variable c using string s to make this script work without errors
     c = s[0] + " " + s[-1]
-    print(c)
 
     # Do not change the line below
     assert c == "H d"
