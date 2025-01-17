@@ -3,6 +3,7 @@
 # way it works without errors
 def is_even(n: int) -> bool:
     pass
+    return n % 2 == 0
 
 
 # Do not change the below's code

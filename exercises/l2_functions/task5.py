@@ -4,6 +4,11 @@
 #
 # HINT:
 # Use *
+def count_params(*args):
+    count = 0
+    for _ in args:
+        count += 1
+    return count
 
 # Do not change the below's code
 if __name__ == "__main__":
