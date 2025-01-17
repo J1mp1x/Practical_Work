@@ -4,10 +4,20 @@
 # - `factorial_for` must use for loop.
 def factorial_while(n: int) -> int:
     pass
+    result = 1
+    while n > 1:
+       result *= n
+       n-= 1
+    return result
 
 
 def factorial_for(n: int) -> int:
     pass
+    result = 1
+    for i in range(1, n+1):
+        result *= i
+    return result
+
 
 
 # Do not change the below's code
