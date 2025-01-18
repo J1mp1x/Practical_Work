@@ -2,6 +2,7 @@
 # of digits in a number `n`
 def count_digits(n: int) -> int:
     pass
+    return  len(str(abs(n)))
 
 
 # Do not change the below's code

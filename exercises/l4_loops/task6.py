@@ -2,6 +2,7 @@
 # in a string `s`.
 def count_char(s: str, c: str) -> int:
     pass
+    return s.lower().count(c.lower())
 
 
 # Do not change the below's code
