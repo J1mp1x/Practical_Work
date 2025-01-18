@@ -1,6 +1,5 @@
 # Write the body of the function to make the script work without errors
 def largest_of_three(a: int, b: int, c: int) -> int:
-    pass
     return max(a, b, c)
 
 

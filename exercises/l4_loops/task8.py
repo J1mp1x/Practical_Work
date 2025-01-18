@@ -1,7 +1,6 @@
 # Use `for` loop to calculate the amount
 # of positive number in a list of integers `n`
 def count_positive(n: list[int]) -> int:
-    pass
     return sum(1 for num in n if num > 0)
 
 

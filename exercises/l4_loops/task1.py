@@ -3,7 +3,6 @@
 # HINT:
 # Use while loop to count sum from 0 to n (included)
 def sum_to(n: int) -> int:
-    pass
     return sum(range(0, n+1))
 
 

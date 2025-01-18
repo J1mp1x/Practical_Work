@@ -3,7 +3,6 @@
 # - `factorial_while` must use while loop;
 # - `factorial_for` must use for loop.
 def factorial_while(n: int) -> int:
-    pass
     result = 1
     while n > 1:
        result *= n
@@ -12,7 +11,6 @@ def factorial_while(n: int) -> int:
 
 
 def factorial_for(n: int) -> int:
-    pass
     result = 1
     for i in range(1, n+1):
         result *= i

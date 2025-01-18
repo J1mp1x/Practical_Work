@@ -1,6 +1,5 @@
 # Write the body of the function to make the script work without errors
 def grade(score: int) -> str:
-    pass
     if score >= 90:
         return "A"
     elif score >= 80:

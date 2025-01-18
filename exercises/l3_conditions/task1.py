@@ -4,7 +4,6 @@ Number = int | float
 
 # Write the function body to make the script work without errors
 def is_positive(n: Number) -> bool:
-    pass
     return n >= 0
 
 

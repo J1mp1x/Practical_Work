@@ -1,6 +1,5 @@
 # Write the body of the function to make the script work without errors
 def is_vowel(c: str) -> bool:
-    pass
     return c.lower() in "a" "e"
 
 if __name__ == "__main__":
