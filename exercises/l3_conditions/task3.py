@@ -15,6 +15,16 @@ class Keyword(Enum):
 def word2token(word: str) -> Keyword:
     if word == "if":
         return Keyword.IF
+    if word == "while":
+        return Keyword.WHILE
+    if word == "for":
+        return Keyword.FOR
+    if word == "class":
+        return Keyword.CLASS
+    if word == "anything":
+        return Keyword.IDENTIFIER
+    if word == "something":
+        return Keyword.IDENTIFIER
 
 
 # Do not change the below's code

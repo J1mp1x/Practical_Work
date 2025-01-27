@@ -1,6 +1,9 @@
 # Write the function body to make the script work without errors
 def full_none(s: str) -> str:
-    pass
+    if s == "":
+        return "NONE"
+    else:
+        return "FULL"
 
 
 # Do not change the below's code
