@@ -11,8 +11,7 @@
 def take(s: str, n: int, last: bool = False) -> str:
     if last:
         return s[-n:] if n > 0 else ""
-    else:
-        return s[:n] if n > 0 else ""
+    return s[:n] if n > 0 else ""
 
 
 

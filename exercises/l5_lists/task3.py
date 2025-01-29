@@ -4,9 +4,9 @@ from typing import Any
 # Write the body of the function that returns
 # the first element from the list `l`
 def first(l: list[Any]) -> Any:
-    if l:
-        return l[0]
-    return None
+    if not l:
+        return None
+    return l[0]
 
 
 

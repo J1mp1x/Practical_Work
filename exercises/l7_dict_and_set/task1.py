@@ -4,8 +4,7 @@ if __name__ == "__main__":
 
     # Retrieve a value from dictionary d to make the script
     # work without errors
-    key, value = d.popitem()
-    c = value
+    c = d["c"]
 
     # Do not modify the line below
     assert c == 42
