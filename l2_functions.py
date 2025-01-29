@@ -126,3 +126,7 @@ if __name__ == "__main__":
     # > Python: Start Native Python REPL
     #
     # Python Console tab in PyCharm
+
+
+def multiply():
+    return None
