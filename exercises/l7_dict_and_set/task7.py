@@ -5,8 +5,9 @@ from typing import Any
 # NOTE: the function should create a new dictionary. Do not modify dictionaries
 # passed to the function as arguments
 def merge(d1: dict[Any, Any], d2: dict[Any, Any]) -> dict[Any, Any]:
-    pass
-
+    merged = d1.copy()
+    merged.update(d2)
+    return merged
 
 # Do not change the below's code
 if __name__ == "__main__":

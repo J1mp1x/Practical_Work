@@ -6,7 +6,7 @@
 # For example,
 # take("abcd", 3) -> "abc"
 def take(s: str, n: int) -> str:
-    pass
+    return s[:n] if n > 0 else ""
 
 
 # Do not change the below's code
