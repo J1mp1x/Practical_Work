@@ -9,7 +9,11 @@ L10_PATH = Path(__file__).parent
 #
 # HINT. Don't forget to close file
 def read(path: Path) -> str:
-    pass
+    if not path.exists():
+        raise FileNotFoundError(f"File {path} not found.")
+
+    with open(path, "r", encoding="utf-8") as file:
+        return file.read()
 
 
 # Do not modify the code below
