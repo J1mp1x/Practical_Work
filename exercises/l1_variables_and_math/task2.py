@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     # Modify variables `name` and `msg` to make this script work without errors
     # Use variables a, b, my to build a value for variable msg
-    name = a
+    name=a
     msg = f"{my.capitalize()} {name} {b} {name}"
 
     # Do not change the line below
